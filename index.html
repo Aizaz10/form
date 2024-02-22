@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <style>
+      .k {
+        background-color: rgb(0, 166, 255);
+      }
+      .p {
+        background-color: rgb(168, 199, 214);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 align="center">APPLICATION FORM</h1>
+    </div>
+    <div class="p">
+      <form>
+        <h2 align="center" class="k">A. General Questions</h2>
+        <br />
+       <div> Proposed Insured's Name: <br>(In Capital Letters) <input type="text" size="50">
+        <br /><br />
+        Birth Date: <input type="date" required />
+        Gender:
+        <input type="radio" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" />
+        <label for="female">Female</label>
+        <br /><br />
+        Adress: <input type="text" size="100"/> <br /><br />
+        Phone Number: <input type="number" />
+        Email:
+        <input type="email" size="55"/> <br /><br />
+        ID Number:
+        <input type="number" />
+        Social Security Number:
+        <input type="number" /> <br /><br />
+        Status:
+        <input type="radio" id="single" name="mystatus" />
+        <label for="single">single</label>
+        <input type="radio" id="married" name="mystatus" />
+        <label for="married">married</label>
+        <input type="radio" id="divorced" name="mystatus" />
+        <label for="divorced">divorced</label>
+        <input type="radio" id="other" name="mystatus" />
+        <label for="other">other</label>
+        <br /><br />
+        Occupation: <input type="text" />
+        Are you a retiree?
+        <input type="radio" id="yes" name="check" />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="check" />
+        <label for="no">No</label></div>
+        <br /><br />
+        <h2 align="center" class="k">B.Type of health coverage</h2>
+        <table border="1" style="border-color: rgb(0, 166, 255);">
+          <tr>
+            <td width="250">
+              Employee:
+              <input type="radio" id="eyes" name="echeck" />
+              <label for="eyes">Yes</label>
+              <input type="radio" id="eno" name="echeck" />
+              <label for="eno">No</label>
+              <p>Plan choice:</p>
+            </td>
+            <td width="250">
+              Spouse:
+              <input type="radio" id="syes" name="scheck" />
+              <label for="syes">Yes</label>
+              <input type="radio" id="sno" name="scheck" />
+              <label for="sno">No</label>
+              <p>Plan choice:</p>
+            </td>
+            <td width="250">
+              Children:
+              <input type="radio" id="cyes" name="ccheck" />
+              <label for="cyes">Yes</label>
+              <input type="radio" id="cno" name="ccheck" />
+              <label for="cno">No</label>
+              <p>Plan choice:</p>
+            </td>
+          </tr>
+        </table>
+        <div>
+            <p> <b> Complete if Spouse/Children are proposed for insurance</b></p>
+        </div>
+        <table border="1" width="790" cellpadding="9" cellspacing="1"  style="border-color: rgb(0, 166, 255);">
+            <tr>
+                <td>Name</td>
+                <td>SSN No.</td>
+                <td>Relationship to proposed insured</td>
+                <td>Birth Date</td>
+                <td>Age</td>
+                <td>Sex</td>
+            </tr>
+            <tr height="25">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="25">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="25">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr height="25">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <h2 align="center" class="k">C. The policy</h2>
+        Units: <input type="text" /> Annual premium: <input type="text" />
+        <br /><br />
+        Payment Mode:
+        <input type="radio" id="annual" name="payment" />
+        <label for="annual">Annual</label>
+        <input type="radio" id="sa" name="payment" />
+        <label for="sa">Semi Annual</label>
+        <input type="radio" id="mp" name="payment" />
+        <label for="mp">monthly PAT(complete PAT card)</label>
+        <br><br>
+        Cash with Application($): <input type="text">
+        <br><br>
+        Planned model premium($): <input type="text"><br><br>
+        <font color="#3498DB"><b>Terms & Conditions</b><br> Improvement should be measured regularly and assessed in <br>order for you to know what's benefical and what is not. This will <br>help you set new targets.</font>
+       <br><br>
+        Date: <input type="date">
+       
+      </form>
+    </div>
+  </body>
+</html>
